@@ -29,7 +29,7 @@ define('DB_USER', 'Pasha');
 define('DB_PASSWORD', 'grasp_92');
 
 /** Имя сервера MySQL */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'dliavas.github.io');
 
 /** Кодировка базы данных для создания таблиц. */
 define('DB_CHARSET', 'utf8');
