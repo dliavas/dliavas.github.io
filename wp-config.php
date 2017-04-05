@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /**
  * Основные параметры WordPress.
  *
@@ -29,7 +29,7 @@ define('DB_USER', 'Pasha');
 define('DB_PASSWORD', 'grasp_92');
 
 /** Имя сервера MySQL */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'dliavas.github.io');
 
 /** Кодировка базы данных для создания таблиц. */
 define('DB_CHARSET', 'utf8');
@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '$,]ts,|(,9XRG$h-H$y@33&3sI#c_TTCdd2og-nz@NrnF[A@@aqMlLY[~TY=l<[i');
-define('SECURE_AUTH_KEY',  '[FP8`6Raoe{Sj0i:9m[p3,R#hMITR,d3QL`wgYS)/pOx*U 1Dx)c(~+:*ua-# [!');
-define('LOGGED_IN_KEY',    '8FU_&TGfG[xh-T&M3zc(QEmO5QK{60Rhh.(XhHZ[6KqQu=khl-D:8~!;C:iavdyM');
-define('NONCE_KEY',        'El1TtYFi#hX]G3]SshPp}e<V[}&FmccKXC_PT4,l]K$aLw19&Yb}of=t}U Y,Ufm');
-define('AUTH_SALT',        'z^3=gijMy(j+j}G}j(zWG5,d`QY-UFCv9!P5dHUp:=v2+m0gIi16,Dc>]6GW5yy7');
-define('SECURE_AUTH_SALT', 'LnW#~9>G 2F$IUL#72.*Ylz,$-fb]7qg7o=u1,>sN(d,34KH&OJ/xb6gcaw4Hp1S');
-define('LOGGED_IN_SALT',   'hY? ?!9et1@A5w%S/;fVvZ*8]Mxgd$_LFE:q<p S)#cqWe4v2iYBu`M!=l]GD&6e');
-define('NONCE_SALT',       'up%4OL> TJh:--scebb`=}5oo{Ix#.E!S[~ai~Ab/G}>>]Vw9,|DnOkSY?Z(/79r');
+define('AUTH_KEY',         'впишите сюда уникальную фразу');
+define('SECURE_AUTH_KEY',  'впишите сюда уникальную фразу');
+define('LOGGED_IN_KEY',    'впишите сюда уникальную фразу');
+define('NONCE_KEY',        'впишите сюда уникальную фразу');
+define('AUTH_SALT',        'впишите сюда уникальную фразу');
+define('SECURE_AUTH_SALT', 'впишите сюда уникальную фразу');
+define('LOGGED_IN_SALT',   'впишите сюда уникальную фразу');
+define('NONCE_SALT',       'впишите сюда уникальную фразу');
 
 /**#@-*/
 
@@ -86,3 +86,4 @@ if ( !defined('ABSPATH') )
 
 /** Инициализирует переменные WordPress и подключает файлы. */
 require_once(ABSPATH . 'wp-settings.php');
+
