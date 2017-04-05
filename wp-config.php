@@ -196,7 +196,7 @@ div.WordSection1
 
 <p class=MsoNormal>/** Имя сервера MySQL */</p>
 
-<p class=MsoNormal>define('DB_HOST', 'dliavas.github.io');</p>
+<p class=MsoNormal>define('DB_HOST', 'localhost');</p>
 
 <p class=MsoNormal>&nbsp;</p>
 
